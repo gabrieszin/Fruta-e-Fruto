@@ -1,0 +1,39 @@
+.rodape {
+  background: var(--cinza-simples);
+  color: var(--branco-mediano);
+
+  text-align: right;
+  text-transform: lowercase;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rodape p:first-child{
+  text-align: left;
+}
+
+.rodape__link{
+  color: var(--branco-mediano);
+
+  text-decoration: none;
+}
+
+.rodape__link:hover{
+  color: var(--branco-mediano);
+
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 0) {
+  .rodape{
+    padding: 2rem 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .rodape{
+    padding: 1.5625rem 5rem;
+  }
+}

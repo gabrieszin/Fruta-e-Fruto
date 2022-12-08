@@ -1,0 +1,17 @@
+:root{
+  --branco: #FFF;
+  --branco-mediano: #FDFDFD;
+  --branco-medio: #F9F9F9;
+
+  --cinza-claro: #E5E5E5;
+  --cinza-simples: #BFBFBF;
+  --cinza: #808080;
+  --cinza-mediano: #8C8888;
+  --cinza-intermediario: #595959;
+  --cinza-medio: #333302;
+
+  --rubi: #8D0606;
+  --vinho: #620404;
+
+  --pacifico: 'Pacifico', sans-serif;
+}

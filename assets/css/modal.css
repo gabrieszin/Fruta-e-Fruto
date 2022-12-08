@@ -1,0 +1,15 @@
+.modal-content, .modal-header, .modal-body, .modal-footer{
+  border: none !important;
+}
+
+.modal-content ul{
+  list-style-type: none;
+}
+
+.texto-receita__titulo{
+  text-transform: uppercase;
+}
+
+.texto-receita h6{
+  text-transform: uppercase;
+}

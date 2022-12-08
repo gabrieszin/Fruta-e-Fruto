@@ -1,0 +1,40 @@
+.quem-somos{
+  padding: 2.5rem;
+
+  text-align: center;
+}
+
+.quem-somos__titulo{
+  font-family: var(--pacifico);
+  
+  color: var(--rubi);
+}
+
+.quem-somos__descricao{
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  
+  font-weight: 100;
+
+  color: var(--cinza-mediano);
+}
+
+@media screen and (min-width: 0) {
+  .quem-somos__titulo{
+    font-size: 2rem;
+  }
+
+  .quem-somos__descricao{
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .quem-somos__titulo{
+    font-size: 3.1rem;
+  }
+
+  .quem-somos__descricao{
+    font-size: 1.75rem;
+  }
+}
